@@ -1,0 +1,470 @@
+body,
+html {
+	padding: 0px;
+	margin: 15px 0;
+	overflow: hidden;
+	user-select: none;
+	font-family: cursive;
+}
+
+body {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.bodybgblue {
+	background: radial-gradient(circle, rgb(61, 111, 161) 20%, rgb(2, 19, 36) 80%);
+}
+
+.bodybgblack {
+	background: radial-gradient(circle, rgb(29, 32, 36) 40%, rgb(0, 4, 7) 60%);
+}
+
+.bodybgimg {
+	background: url(../bg.jpg) repeat;
+    background-size: 15%;
+}
+
+div {
+	margin: 0px;
+	padding: 0px;
+}
+
+canvas {
+	border:1px solid darkslategray;
+}
+
+#bg {
+	background-color: black;
+	position: absolute;
+}
+
+#Carrom {
+	position: absolute;
+}
+
+#Striker {
+	position: relative;
+}
+
+.jumbotron {
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	font-family: cursive;
+	z-index: 5;
+	pointer-events: none;
+	color: #fff;
+}
+
+.one {
+	top: 521px;
+	left: calc(50% - 82px);
+}
+
+.two {
+	top: 21px;
+	left: calc(50% - 82px);
+}
+
+.jumbotron h3,
+.jumbotron p {
+	margin: 4px;
+	cursor: default;
+	display: inline-block;
+}
+
+.title {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #000;
+	color: antiquewhite;
+	font-family: cursive;
+	padding: 0 20px;
+	height: 100%;
+	background: url(../bg.jpg) repeat;
+	background-size: 70%;
+	text-shadow: 3px 3px #000000;
+	border-right:3px solid darkslategray;
+}
+
+.title h1 {
+	font-size: 50px;
+	margin: 20px 0;
+}
+
+.controls {
+	position: absolute;
+    right: 0;
+    top: 0;
+    background: #000;
+    color: #fff;
+    font-family: cursive;
+    padding: 17px;
+    height: 100%;
+    text-align: center;
+    width: 125px;
+    box-sizing: border-box;
+}
+
+.controls h4 {
+	margin: 10px 0;
+	padding: 0;
+}
+
+.blue {
+	border: 2px solid #ccc;
+	background: radial-gradient(circle, rgb(61, 111, 161) 20%, rgb(2, 19, 36) 80%);
+	box-sizing: border-box;
+}
+
+.black {
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+	background: radial-gradient(circle, rgb(29, 32, 36) 20%, rgb(0, 4, 7) 80%);
+}
+
+.imgbg {
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+	background: radial-gradient(circle, rgb(29, 32, 36) 20%, rgb(0, 4, 7) 80%);
+}
+
+.imgbg img {
+	margin: 5px;
+	display: inline-block;
+}
+
+#gameConfig {
+	position: fixed;
+	top: 30px;
+	left: 120px;
+	width: 200px;
+	height: 520px;
+	overflow: hidden;
+	/* border: 2px solid red; */
+	color: #fff;
+	font-family: cursive;
+	padding: 0 20px;
+	text-align: center;
+}
+
+#msgs {
+	position: absolute;
+	bottom: 20px;
+	width: 200px;
+	overflow: hidden;
+	color: #fff;
+	font-family: cursive;
+	text-align: center;
+	margin: 0 auto;
+	left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.con {
+	display: inline-block;
+}
+.con div {
+	float: left;
+	margin: 5px;
+}
+
+/* #msgs1 {
+	position: fixed;
+	top: 220px;
+	right: 120px;
+	width: 200px;
+	height: 328px;
+	overflow: hidden;
+	color: #fff;
+	font-family: cursive;
+	padding: 0 20px;
+	text-align: center;
+}*/
+
+#msgs1 ul {
+	text-align: left !important;
+    margin: 0 0 0 80px;
+    padding: 0;
+    list-style: none;
+}
+
+#msgs1 ul li {
+	margin-bottom: 10px;
+}
+
+#msgs1 ul li img {
+	vertical-align: middle;
+    width: 30px;
+    margin: 0 5px 0 20px;
+}
+
+#msgs1 ul li img:first-child {
+	margin-left: 0;
+}
+
+#gameConfig h3,
+#msgs h3 {
+	margin-top: 0;
+}
+
+div.b,
+div.g,
+div.bg {
+	position: relative;
+	width: 35px;
+	height: 35px;
+}
+
+div.b.active,
+div.g.active,
+div.bg.active {
+	border: 2px solid red;
+	box-sizing: border-box;
+}
+
+div.b1 {
+	background-image: url("../b1.jpg");
+}
+
+div.b2 {
+	background-image: url("../b2.jpg");
+}
+
+div.b3 {
+	background-image: none;
+	background-color: #ebdfc3;
+}
+
+div.b4 {
+	background-image: none;
+	background-color: #ebdfc3;
+	padding: 3px;
+	box-sizing: border-box;
+}
+
+.s {
+	background-color: #ebdfc3;
+	width: 35px;
+	height: 35px;
+	margin: 20px auto;
+}
+
+.s img {
+	margin: 3px;
+}
+
+.g img {
+	margin-top: 2px;
+}
+
+.g.active img {
+	margin-top: 0;
+}
+
+.myButton {
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color: #ededed;
+	border-radius: 6px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+	color: #777777;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 24px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #ffffff;
+	margin: 15px auto;
+}
+
+.myButton:hover {
+	background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color: #dfdfdf;
+}
+
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+
+.myButton.active {
+	box-shadow: inset 0px 1px 0px 0px #caefab;
+	background: linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	background-color: #77d42a;
+	border-radius: 6px;
+	border: 1px solid #268a16;
+	display: inline-block;
+	cursor: pointer;
+	color: #000000;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 24px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #aade7c;
+}
+
+.myButton.active:hover {
+	background: linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+	background-color: #5cb811;
+}
+
+.myButton.active:active {
+	position: relative;
+	top: 1px;
+}
+
+.myButton1 {
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color: #ededed;
+	border-radius: 6px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+	color: #777777;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 24px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #ffffff;
+	margin: 15px auto;
+}
+
+.myButton1:hover {
+	background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color: #dfdfdf;
+}
+
+.myButton1:active {
+	position: relative;
+	top: 1px;
+}
+
+.myButton1.active {
+	box-shadow: inset 0px 1px 0px 0px #caefab;
+	background: linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	background-color: #77d42a;
+	border-radius: 6px;
+	border: 1px solid #268a16;
+	display: inline-block;
+	cursor: pointer;
+	color: #000000;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 24px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #aade7c;
+}
+
+.myButton1.active:hover {
+	background: linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+	background-color: #5cb811;
+}
+
+.myButton1.active:active {
+	position: relative;
+	top: 1px;
+}
+
+#msgbox {
+	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
+
+.popup {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 10px solid #110d03;
+	background-color: olivedrab;
+	background: #fff;
+	width: 40%;
+	height: 65%;
+	text-align: center;
+	box-shadow: 0 0 5px 5px #000;
+}
+
+.popup h2 {
+	margin: 20px;
+	color: #096969;
+	font-size: 30px;
+}
+
+.myButton2 {
+	box-shadow: inset 0px 1px 0px 0px #f9eca0;
+	background: linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+	background-color: #f0c911;
+	border-radius: 6px;
+	border: 1px solid #e65f44;
+	display: inline-block;
+	cursor: pointer;
+	color: #3b0b02;
+	font-family: Arial;-
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 24px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #ded17c;
+	margin-top: 10px;
+}
+.myButton2:hover {
+	background: linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+	background-color: #f2ab1e;
+}
+.myButton2:active {
+	position: relative;
+	top: 1px;
+}
+
+h1.t {
+	text-transform: Uppercase;
+	margin-bottom: 0.5em;
+	font-family: "Rubik", sans-serif;
+	font-size: 45px;
+	color: #e4e5e6;
+}
+
+h1.t {
+	position: relative;
+	background: linear-gradient(to right, #24243e, #141e30, #0f0c29);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h1.t:before,
+h1.t:after {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+h1.t:before {
+	z-index: -1;
+	text-shadow: -0.001em -0.001em 1px rgba(255, 255, 255, 0.15);
+}
+
+h1.t:after {
+	z-index: -2;
+	text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5), 20px 20px 20px rgba(0, 0, 0, 0.4), 30px 30px 30px rgba(0, 0, 0, 0.1);
+	mix-blend-mode: multiply;
+}
