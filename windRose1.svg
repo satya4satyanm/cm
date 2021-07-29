@@ -1,0 +1,24 @@
+<svg width="290" height="290" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <g transform="matrix(0.4559843991492927,0,0,0.4559843991492927,23.039645160243822,357.34243122127805) " id="g8739">
+   <path id="svg_1" d="m267.46607,-465.67925l0,-65l155,-90l-155,155z" stroke="#000000" fill="#000000"/>
+   <path id="svg_2" d="m267.46607,-465.67925l65,0l90,-155l-155,155z" stroke-width="1px" stroke="#000000" fill-rule="evenodd" fill="#ffffff"/>
+   <path id="svg_3" d="m267.46607,-465.67925l65,0l90,155l-155,-155z" stroke="#000000" fill="#000000"/>
+   <path id="svg_4" d="m267.46607,-465.67925l0,65l155,90l-155,-155z" stroke="#000000" fill="#ffffff"/>
+   <path id="svg_5" d="m267.46607,-465.67925l0,65l-155,90l155,-155z" stroke="#000000" fill="#000000"/>
+   <path id="svg_6" d="m267.46607,-465.67925l-65,0l-90,155l155,-155z" stroke="#000000" fill="#ffffff"/>
+   <path id="svg_7" d="m267.46607,-465.67925l-65,0l-90,-155l155,155z" stroke="#000000" fill="#000000"/>
+   <path id="svg_8" d="m267.46607,-465.67925l0,-65l-155,-90l155,155z" stroke="#000000" fill="#ffffff"/>
+   <path id="svg_9" d="m267.46607,-765.67925l-45,255l45,45l0,-300z" stroke="#ad300e" fill="#ad300e"/>
+   <path id="svg_10" d="m267.46607,-765.67925l45,255l-45,45l0,-300z" stroke="#000000" fill="#ffffff"/>
+   <path id="svg_11" d="m567.46607,-465.67925l-255,-45l-45,45l300,0z" stroke="#ad300e" fill="#ad300e"/>
+   <path id="svg_12" d="m567.46607,-465.67925l-255,45l-45,-45l300,0z" stroke="#000000" fill="#ffffff"/>
+   <path id="svg_13" d="m267.46607,-165.67925l45,-255l-45,-45l0,300z" stroke="#ad300e" fill="#ad300e"/>
+   <path id="svg_14" d="m267.46607,-165.67925l-45,-255l45,-45l0,300z" stroke="#000000" fill="#ffffff"/>
+   <path id="svg_15" d="m-32.53393,-465.67925l255,45l45,-45l-300,0z" stroke="#ad300e" fill="#ad300e"/>
+   <path id="svg_16" d="m-32.53393,-465.67925l255,-45l45,45l-300,0z" stroke="#000000" fill="#ffffff"/>
+  </g>
+ </g>
+</svg>

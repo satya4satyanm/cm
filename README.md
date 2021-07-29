@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# carrom
+A Carrom Board Game, built on web using Javascript and Html Canvas
 
-You can use the [editor on GitHub](https://github.com/satya4satyanm/cm/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Two game modes
 
-### Markdown
+Professional Carrom
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+add a property to coins if they hit the players restricted area after they stopped moving
+if the user hits a coin which is in restricted area, its a foul
 
-# Header 1
-## Header 2
-### Header 3
+A round of 5 games between two players is a tournament 
 
-- Bulleted
-- List
+restricted hit should be first hit check
 
-1. Numbered
-2. List
+add a sound when red coin is re-placed
+add a small animation
 
-**Bold** and _Italic_ and `Code` text
+Make a custom board and share with friends
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/satya4satyanm/cm/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
