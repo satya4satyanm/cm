@@ -1,13 +1,12 @@
-theme: jekyll-theme-minimal
 version: 1
 frontend:
   phases:
     preBuild:
       commands:
-        - npm ci
+        - npm i
     build:
       commands:
-        - npm run build
+        - npm run build --trace
   artifacts:
     baseDirectory: public
     files:
